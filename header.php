@@ -20,7 +20,7 @@
                     <span></span>
                     <span></span>
                 </div>
-            </div>
+            </div> 
                 <?php  
                 wp_nav_menu( $args = array(
                     'menu_class'        => "nav-links", // (string) CSS class to use for the ul element which forms the menu. Default 'menu'.
@@ -31,6 +31,5 @@
                     'menu_id'           => "menu-primary", // (string) The ID that is applied to the ul element which forms the menu. Default is the menu slug, incremented.
                 ) );
                 ?>
-                
             </div>
-        </div>
+        </div> 

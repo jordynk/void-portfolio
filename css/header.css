@@ -6,7 +6,7 @@
     position: fixed;
     text-align: center;
     z-index: 3;
-    background-color: #40804D;
+    background-color: rgb(218, 113, 212);
     color: #FFFFFF;
 }
 .content {
@@ -235,7 +235,7 @@ i {
         align-items: center;
         width: 100%;
         padding: 0 5%;
-        background-color: #40804D;
+        background-color: #cc66cc;
         height: 8.4rem;
         justify-content: space-between;
         position: relative;
@@ -304,7 +304,6 @@ i {
 
     #menu
     {
-    position: absolute;
     /* width: 100%; */
     left: 0;
     right: 0;
@@ -360,3 +359,84 @@ i {
         height: 6rem;
     }
 }
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+}
+.hero-box{
+    flex: 50%;
+    padding: 30px;
+    margin: 40px;
+    margin-bottom: 0px;
+}
+.hero-box img{
+    flex: 50%;
+    border-radius: 50%;
+    margin: 0px;
+}
+.text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.title{
+    color: rgb(74, 135, 226);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 27px;
+    line-height: 140%;
+}
+
+.hero-t{
+    padding: 50px;
+    padding-top: 80px;
+    padding-left: 30px;
+}
+p{
+    color: black;
+    display: block;
+    font-size: 15px;
+    line-height: 140%;
+}
+.space{
+    margin: 30px;
+    padding: 30px; 
+}
+.about-me p{
+    display: flex;
+    position: relative;
+    width: 540px;
+    height: 170px;
+    left: 100px;
+    top: 5px;
+}
+
+.projects{
+    display: flex;
+    justify-content: center;
+}
+
+.projects h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    text-indent: 15px;
+}
+
+.projects p{
+    margin-left: 40px;
+    font-size: 13px;
+    width: 250px;
+}
+
+.project-indiv{
+    display: flex;
+    justify-content: center;
+}
+.proj-box{
+    flex: 50%;
+    padding: 30px;
+}
+
+body {
+    background: linear-gradient(to left top, white, rgb(221, 181, 221)) fixed;
+  }
